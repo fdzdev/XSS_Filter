@@ -12,7 +12,7 @@ function displayResults(data) {
     const container = document.getElementById("resultsContainer");
     container.innerHTML = "";
 
-    // Sort results by severity
+    // Sort results by severity!
     data.sort((a, b) => b["Final Score"] - a["Final Score"]);
 
     data.forEach((result) => {
